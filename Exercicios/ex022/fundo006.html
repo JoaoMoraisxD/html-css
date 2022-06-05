@@ -7,17 +7,27 @@
     <title>Background size</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
-            background-size: couver;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;*/
+
+            /* shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
+            border-radius: 3px;
         }
     </style>
 </head>
@@ -25,6 +35,10 @@
     <main>
         <h1>teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere distinctio fugiat voluptatem molestias officiis mollitia quae id, error tempora suscipit incidunt sunt? Porro, in iste tempore at omnis ad saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet eos placeat ullam quam autem quis saepe pariatur facilis dolores amet earum aliquid laudantium est velit, dolorum quo laboriosam! Totam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora deleniti labore, officia facilis facere non eveniet aspernatur, adipisci unde aliquam quibusdam fugit provident in quas laborum! Quam reiciendis quibusdam quae!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat nesciunt quasi architecto veniam labore cupiditate officia dignissimos, id pariatur quia in, at odio fuga accusamus recusandae ea dicta quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempore ea omnis alias odit officia repellendus est amet maxime, quaerat vel excepturi ad! Illum impedit quia ducimus maxime rem deleniti?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nesciunt in accusamus expedita illo! Iusto commodi similique laborum expedita tempore necessitatibus voluptatum officiis temporibus. Sequi nostrum rem quam vel fugit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, in. Veritatis aut aliquam itaque nobis nemo, eaque culpa eligendi explicabo ea, accusamus non cumque! Distinctio sunt quos rerum magni aliquid?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis quam ratione, quod consectetur dolor nulla? Numquam nihil eaque officia natus quo enim error, voluptate ab consectetur tempora atque nemo praesentium!Loremlorem
+
+        </p>
     </main>
 </body>
 </html>
